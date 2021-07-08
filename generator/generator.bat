@@ -15,6 +15,4 @@ set PATH=%PATH%;C:\anima;C:\mingws\i686-7.2.0-release-posix-dwarf-rt_v5-rev1\min
 :: arg[1] compiler name gcc, clang or cl
 luajit ./generator.lua gcc 
 
-::leave console open
-cmd /k
-
+exit 0
